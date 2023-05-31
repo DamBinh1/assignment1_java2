@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="665.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assigmennt1_java2.CreateController">
+   <children>
+      <TextField fx:id="txtName" layoutX="232.0" layoutY="109.0" promptText="Name"  />
+      <TextField fx:id="txtRoom" layoutX="232.0" layoutY="172.0"  promptText="Room"/>
+      <TextField fx:id="txtKey" layoutX="232.0" layoutY="234.0" promptText="Key" />
+      <Text layoutX="218.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CLASS INFORMATION" wrappingWidth="241.13671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button onAction="#submit" layoutX="418.0" layoutY="292.0" mnemonicParsing="false" style="-fx-background-color: red;" text="Submit" />
+      <Button onAction="#backToList" layoutX="493.0" layoutY="292.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="58.0" style="-fx-background-color: blue;" text="Back" />
+   </children>
+</Pane>

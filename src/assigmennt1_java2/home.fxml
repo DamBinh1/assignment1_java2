@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assigmennt1_java2.HomeController">
+   <children>
+      <Text layoutX="234.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CLASS LIST" wrappingWidth="132.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <ListView fx:id="lv" layoutX="55.0" layoutY="115.0" prefHeight="237.0" prefWidth="496.0" />
+      <Button layoutX="453.0" layoutY="37.0" mnemonicParsing="false" onAction="#goToForm" style="-fx-background-color: blue;" text="Create Class" />
+   </children>
+</Pane>
